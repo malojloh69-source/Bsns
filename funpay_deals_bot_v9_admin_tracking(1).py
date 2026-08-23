@@ -36,7 +36,7 @@ def blue_inline_button(*args, **kwargs) -> InlineKeyboardButton:
     return InlineKeyboardButton(*args, **kwargs)
 
 BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
-BOT_USERNAME = "FunpayDeas_Bot"
+BOT_USERNAME = "Funpay_Safity_bot"
 SUPPORT_USERNAME = "Relaier_FunPay"
 BANNER_PATH = Path(__file__).with_name("funpay_banner.jpg")
 LANGUAGE_BANNER_PATH = Path(__file__).with_name("language_selection.jpg")
